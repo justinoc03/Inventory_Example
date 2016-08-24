@@ -1,0 +1,24 @@
+Objective: Program that will help an oddities store search their inventory.
+Input: Size (small, med, large), color (purple, orange, black, red, blue, green, fuchsia, mermaid treasure)
+
+output: text of anything in stock that fits description
+
+version plan:
+check inventory for a match on size and color
+
+versioning plan:
+X 1. handshake between js and html (sourcing)
+X 2. get user selection on button click (onclick tag on button element in HTML that runs a function in JS)
+X 3. select size (select element with options within)
+4. select color
+5. search by size
+6. search by color
+7. search by both size and color
+
+check if we have something in a given size
+check inventory for a match on size and color (nested ifs)
+
+Should we use multiple inputs (variables) or use a single big one?
+  generally it is easier to use multiple variables for a few reasons:
+    1. easier to adjust later
+    2. keeps code cleaner and easier to understand
